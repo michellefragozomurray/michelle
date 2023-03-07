@@ -1,6 +1,6 @@
 { pkgs }: {
-    deps = [
-        pkgs. hello world                                                                                                                 
-        pkgs.deno
-    ];
+  deps = [
+    pkgs.nodePackages.vscode-langservers-extracted
+    pkgs.nodePackages.typescript-language-server  
+  ];
 }
